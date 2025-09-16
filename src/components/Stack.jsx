@@ -23,9 +23,12 @@ function Stack({ props }) {
           <img src={sql} alt="nothing" className="w-[55px] mr-[65px]" />
         </nav>
       </section> */}
-      <div className="flex justify-center">
+      <div className="flex items-center flex-col gap-[15px]">
         <p className="  bg-[#6c0707] py-[4px] text-[11px] md:text-[14px] md:flex items-center px-[20px] md:px-[20px] md:py-[2px] rounded-2xl text-[#cb4040] font-mono font-bold hover:text-[#be1010] hover:bg-[#7b2020]">
           Patch work 🔨
+        </p>
+        <p className=" md:hidden bg-[#0e2d1d] text-[10px] md:text-[14px] flex items-center px-[15px] md:px-[20px] py-[5px] rounded-2xl text-[#16a34a] font-mono font-bold hover:text-[#45b56e] hover:bg-[#1f382c]">
+          VIEW IN DESKTOP FOR FULL VERSION
         </p>
       </div>
     </div>

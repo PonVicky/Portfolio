@@ -108,31 +108,31 @@ function About() {
           >
             <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[15px] md:p-[15px]">
               <div className="flex items-center ">
-                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[10px] md:mr-[50px]">
+                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[20px] md:mr-[50px]">
                   01{" "}
                 </p>
                 <img
                   src={html}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]
                  "
                 />
                 <img
                   src={javascript}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
                 <img
                   src={react}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
                 <img
                   src={tailwind}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
-                <img src={git} alt="nothing" className="w-[15px] md:w-[30px]" />
+                <img src={git} alt="nothing" className="w-[20px] md:w-[30px]" />
               </div>
               <p className="hidden  bg-[#0e2d1d] text-[9px] md:text-[14px] md:flex items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#16a34a] font-mono font-bold hover:text-[#45b56e] hover:bg-[#1f382c]">
                 Responsive
@@ -179,31 +179,31 @@ function About() {
           >
             <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[15px] md:p-[15px]">
               <div className="flex items-center ">
-                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[10px] md:mr-[50px]">
+                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[20px] md:mr-[50px]">
                   02{" "}
                 </p>
                 <img
                   src={html}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]
                  "
                 />
                 <img
                   src={javascript}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
                 <img
                   src={react}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
                 <img
                   src={tailwind}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
-                <img src={git} alt="nothing" className="w-[15px] md:w-[30px]" />
+                <img src={git} alt="nothing" className="w-[20px] md:w-[30px]" />
               </div>
               <p className="hidden  bg-[#0e2d1d] text-[9px] md:text-[14px] md:flex items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#16a34a] font-mono font-bold hover:text-[#45b56e] hover:bg-[#1f382c]">
                 Responsive
@@ -243,7 +243,7 @@ function About() {
           "
             onClick={openAmazon}
           >
-            <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[15px] md:p-[15px]">
+            <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[20px] md:p-[15px]">
               <div className="flex items-center ">
                 <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[10px] md:mr-[50px]">
                   03{" "}
@@ -251,25 +251,25 @@ function About() {
                 <img
                   src={html}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]
                  "
                 />
                 <img
                   src={javascript}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
                 <img
                   src={react}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
                 <img
                   src={tailwind}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
-                <img src={git} alt="nothing" className="w-[15px] md:w-[30px]" />
+                <img src={git} alt="nothing" className="w-[20px] md:w-[30px]" />
               </div>
               {/* <p className="hidden  bg-[#0e2d1d] text-[9px] md:text-[14px] md:flex items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#16a34a] font-mono font-bold hover:text-[#45b56e] hover:bg-[#1f382c]">
                 Responsive
@@ -315,19 +315,19 @@ function About() {
           >
             <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[15px] md:p-[15px]">
               <div className="flex items-center ">
-                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[10px] md:mr-[50px]">
+                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[20px] md:mr-[50px]">
                   04{" "}
                 </p>
                 <img
                   src={html}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]
                  "
                 />
                 <img
                   src={css}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
               </div>
               {/* <p className="hidden  bg-[#0e2d1d] text-[9px] md:text-[14px] md:flex  items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#16a34a] font-mono font-bold hover:text-[#45b56e] hover:bg-[#1f382c]">
@@ -374,32 +374,32 @@ function About() {
           >
             <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[15px] md:p-[15px]">
               <div className="flex items-center ">
-                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[10px] md:mr-[50px]">
+                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[20px] md:mr-[50px]">
                   05{" "}
                 </p>
                 <img
                   src={html}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]
                  "
                 />
                 <img
                   src={javascript}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
                 <img
                   src={react}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
                 <img
                   src={tailwind}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
 
-                <img src={git} alt="nothing" className="w-[15px] md:w-[30px]" />
+                <img src={git} alt="nothing" className="w-[20px] md:w-[30px]" />
               </div>
               {/* <p className="hidden  bg-[#0e2d1d] text-[9px] md:text-[14px] md:flex  items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#16a34a] font-mono font-bold hover:text-[#45b56e] hover:bg-[#1f382c]">
                 Responsive
@@ -444,27 +444,27 @@ function About() {
           >
             <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[15px] md:p-[15px]">
               <div className="flex items-center ">
-                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[10px] md:mr-[50px]">
+                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[20px] md:mr-[50px]">
                   06{" "}
                 </p>
                 <img
                   src={html}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]
                  "
                 />
                 <img
                   src={css}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
                 <img
                   src={javascript}
                   alt="nothing"
-                  className="w-[15px] md:w-[30px] mr-[10px] md:mr-[35px]"
+                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
 
-                <img src={git} alt="nothing" className="w-[15px] md:w-[30px]" />
+                <img src={git} alt="nothing" className="w-[20px] md:w-[30px]" />
               </div>
               <p className="hidden  bg-[#0e2d1d] text-[9px] md:text-[14px] md:flex  items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#16a34a] font-mono font-bold hover:text-[#45b56e] hover:bg-[#1f382c]">
                 Responsive

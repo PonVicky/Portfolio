@@ -4,7 +4,10 @@ function Header() {
   return (
     // <div className="py-[20px] px-[40px] font-montserrat flex justify-between text-[#222] sticky top-0 bg-[#f5f4f3]">
     <div className="px-[10px] py-[20px] md:px-[40px] font-montserrat flex justify-between items-center sticky top-0  text-white bg-transparent mix-blend-difference z-3">
-      <section className="flex items-center gap-[2px] md:gap-1 hover:cursor-pointer">
+      <a
+        href="#about"
+        className="flex items-center gap-[2px] md:gap-1 hover:cursor-pointer"
+      >
         <img
           src={logo}
           alt="logo"
@@ -13,7 +16,7 @@ function Header() {
         <p className="text-[14px] font-montserrat md:text-[16px] font-[600] md:font-[700]">
           ponv.dev
         </p>
-      </section>
+      </a>
       <section className="flex font-[600] md:gap-2 md:tracking-tight">
         <a
           href="#about"

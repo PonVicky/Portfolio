@@ -1,17 +1,3 @@
-import react from "../images/techstackLogos/React.svg";
-import node from "../images/techstackLogos/Nodejs.svg";
-import java from "../images/miscallaneous/Java.svg";
-import c from "../images/miscallaneous/C.svg";
-import sql from "../images/miscallaneous/MySql.svg";
-import mongo from "../images/techstackLogos/mongo.svg";
-
-import tailwind from "../images/techstackLogos/Tailwind.svg";
-import html from "../images/techstackLogos/HTML5.svg";
-import git from "../images/miscallaneous/Git.svg";
-import javascript from "../images/techstackLogos/JavaScript.svg";
-
-import css from "../images/techstackLogos/CSS3.svg";
-
 function Stack({ props }) {
   return (
     <div className="px-[24px] py-[130px]">

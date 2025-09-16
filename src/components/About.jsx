@@ -61,6 +61,10 @@ function About() {
     ); // _blank opens in a new tab
   };
 
+  const openPortfolio = () => {
+    window.open("https://ponv-dev.netlify.app/", "_blank");
+  };
+
   const word =
     "I'm a skilled software developer with experience in building responsive and modern web applications using React JS and TailwindCSS. Alongside web development, I atively practice Data Structures and Algorithms in Java on platforms like LeetCode, sharpening my problem-solving and logical thinking skills. Currently, I'm expanding my expertise by learning Node.js, aiming to strengthem my backend development knowledge.";
   return (
@@ -171,7 +175,7 @@ function About() {
           hover:scale-101
           hover:cursor-pointer
           "
-            onClick={openWebsite}
+            onClick={openPortfolio}
           >
             <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[15px] md:p-[15px]">
               <div className="flex items-center ">

@@ -1,6 +1,9 @@
 import logo from "../images/logo.png";
 
 function Footer() {
+  const openGithub = () => {
+    window.open("https://github.com/PonVicky", "_blank"); // _blank opens in a new tab
+  };
   return (
     <div className="text-white bg-black">
       <div className="px-[24px] md:px-[32px] mx-auto pt-[150px]  md:pt-[200px] flex flex-col gap-[30px]">
@@ -25,7 +28,9 @@ function Footer() {
         <hr className=" border-t-[1px] border-[#888] " />
         <nav className="text-[14px] md:text-[18px] flex gap-[20px] ml-[10px] md:ml-[20px] mb-[20px]">
           <p className="hover:cursor-pointer">Linkedin</p>
-          <p className="hover:cursor-pointer">Github</p>
+          <p onClick={openGithub} className="hover:cursor-pointer">
+            Github
+          </p>
         </nav>
       </div>
     </div>

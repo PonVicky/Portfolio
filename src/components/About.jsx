@@ -97,7 +97,7 @@ function About() {
         <p className=" text-white text-[50px] md:text-[80px] font-[700] mb-[50px] md:mb-[90px] leading-[1.1]">
           Side Projects<b>.</b>
         </p>
-        <section className="w-[100%] md:w-[75%] mx-auto mb-[20px] md:mb-[50px]">
+        <section className="w-[100%] md:w-[75%] mx-auto mb-[40px] md:mb-[50px]">
           <div
             className="bg-[#1e1d1c] h-auto rounded-xl mb-[20px] overflow-hidden px-[10px] md:p-[20px] text-[#888]
           transition duration-300 ease-in-out hover:shadow-[0_0_15px_3px_rgba(198,198,198,0.9)]
@@ -168,7 +168,7 @@ function About() {
           </div>
         </section>
 
-        <section className="w-[100%] md:w-[75%] mx-auto mb-[20px] md:mb-[50px]">
+        <section className="w-[100%] md:w-[75%] mx-auto mb-[40px] md:mb-[50px]">
           <div
             className="bg-[#1e1d1c] h-auto rounded-xl mb-[20px] overflow-hidden px-[10px] md:p-[20px] text-[#888]
           transition duration-300 ease-in-out hover:shadow-[0_0_15px_3px_rgba(198,198,198,0.9)]
@@ -234,7 +234,7 @@ function About() {
           </div>
         </section>
 
-        <section className="w-[100%] md:w-[75%] mx-auto mb-[20px] md:mb-[50px]">
+        <section className="w-[100%] md:w-[75%] mx-auto mb-[40px] md:mb-[50px]">
           <div
             className="bg-[#1e1d1c] h-auto rounded-xl mb-[20px] overflow-hidden px-[10px] md:p-[20px] text-[#888]
           transition duration-300 ease-in-out hover:shadow-[0_0_15px_3px_rgba(198,198,198,0.9)]
@@ -304,7 +304,7 @@ function About() {
           </div>
         </section>
 
-        <section className="w-[100%] md:w-[75%] mx-auto mb-[20px] md:mb-[50px]">
+        <section className="w-[100%] md:w-[75%] mx-auto mb-[40px] md:mb-[50px]">
           <div
             className="bg-[#1e1d1c] h-auto rounded-xl mb-[20px] overflow-hidden px-[10px] md:p-[20px] text-[#888]
           transition duration-300 ease-in-out hover:shadow-[0_0_15px_3px_rgba(198,198,198,0.9)]
@@ -363,7 +363,7 @@ function About() {
           </div>
         </section>
 
-        <section className="w-[100%] md:w-[75%] mx-auto mb-[20px] md:mb-[50px]">
+        <section className="w-[100%] md:w-[75%] mx-auto mb-[40px] md:mb-[50px]">
           <div
             className="bg-[#1e1d1c] h-auto rounded-xl mb-[20px] overflow-hidden px-[10px] md:p-[20px] text-[#888]
           transition duration-300 ease-in-out hover:shadow-[0_0_15px_3px_rgba(198,198,198,0.9)]

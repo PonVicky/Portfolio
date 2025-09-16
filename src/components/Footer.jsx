@@ -11,7 +11,7 @@ function Footer() {
           Want to collaborate on a project?
         </p>
         <p className="md:hidden text-[20px] ml-[5px] md:text-[32px] text-[#888888]">
-          Got and idea to build ?
+          Got an idea to build ?
         </p>
         <nav className="flex items-center">
           <img

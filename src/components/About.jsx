@@ -245,7 +245,7 @@ function About() {
           >
             <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[20px] md:p-[15px]">
               <div className="flex items-center ">
-                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[10px] md:mr-[50px]">
+                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[20px] md:mr-[50px]">
                   03{" "}
                 </p>
                 <img

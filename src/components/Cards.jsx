@@ -5,7 +5,7 @@ function Cards({ props }) {
     <CometCard>
       <button
         type="button"
-        className="my-10 flex flex-1 min-w-0 max-w-[300px] cursor-pointer flex-col items-stretch rounded-[16px] border-0 bg-[#1F2121] p-2 hover:saturate-100 md:saturate-0 md:my-20 md:p-4"
+        className="my-10 flex flex-1 min-w-0 max-w-[300px] flex-col items-stretch rounded-[16px] border-0 bg-[#1F2121] p-2 hover:saturate-100 md:saturate-0 md:my-20 md:p-4"
         aria-label="View invite F7RA"
         style={{
           transformStyle: "preserve-3d",

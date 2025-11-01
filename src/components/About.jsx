@@ -6,6 +6,7 @@ import tailwind from "../images/techstackLogos/Tailwind.svg";
 import html from "../images/techstackLogos/HTML5.svg";
 import git from "../images/miscallaneous/Git.svg";
 import javascript from "../images/techstackLogos/JavaScript.svg";
+import mongo from "../images/techstackLogos/mongo.svg";
 
 import github from "../images/socials/GitHub.svg";
 import dsa from "../images/githubdesktop.png";
@@ -17,6 +18,7 @@ import css from "../images/techstackLogos/CSS3.svg";
 import port from "../images/portfoliodesktop.png";
 import gumroad from "../images/gumroaddesktop.png";
 import harini from "../images/harini.png";
+import Project from "./Project";
 function About() {
   const cardDetails = [
     {
@@ -97,7 +99,73 @@ function About() {
         <p className=" text-white text-[50px] md:text-[80px] font-[700] mb-[50px] md:mb-[90px] leading-[1.1]">
           Side Projects<b>.</b>
         </p>
-        <section className="w-[100%] md:w-[75%] mx-auto mb-[40px] md:mb-[50px]">
+        <Project
+          website={"https://swiggy-vickys-react5.netlify.app/"}
+          images={[html, javascript, react, tailwind, git]}
+          title={"Swiggy"}
+          number={"01"}
+          description={
+            "A responsive front-end recreation of a food ordering interface, designed with a focus on clean layouts and smooth user flow."
+          }
+          isResponsive={"Responsive"}
+          projectImage={desktop}
+        />
+        <Project
+          website={"https://fullstacktodo1.netlify.app/"}
+          title={"To-Do Web Application (Full Stack)"}
+          number={"02"}
+          images={[html, javascript, react, node, mongo, tailwind, git]}
+          description={
+            "A secure and responsive MERN stack application that lets users sign up, log in, and manage their daily tasks. Users can add, complete, or delete tasks, with all data stored persistently for future access."
+          }
+          isResponsive={"Responsive"}
+          projectImage={todo}
+        />
+        <Project
+          website={"https://ponvigneshworks.netlify.app/"}
+          images={[html, javascript, react, tailwind, git]}
+          title={"Portfolio (Recursion Unlocked🔁)"}
+          number={"03"}
+          description={
+            "Yes... my portfolio lives inside my portfolio. Built fully responsive with React and Tailwind, it's a clean showcase of my work, my skills."
+          }
+          isResponsive={"Responsive"}
+          projectImage={port}
+        />
+        <Project
+          website="https://vickyamazon.netlify.app/"
+          images={[html, javascript, react, tailwind, git]}
+          number={"04"}
+          isResponsive={"🔨"}
+          title={"Amazon UI"}
+          description={
+            "An e-commerce front-end look alike Amazon, showcasing product listing, header interactions, and catalog-style layouts."
+          }
+          projectImage={amazon}
+        />
+        <Project
+          website="https://benevolent-pavlova-0db68b.netlify.app/"
+          number={"05"}
+          images={[html, css]}
+          isResponsive={"🔨"}
+          title={"Client Portfolio"}
+          description={
+            "My first design just using pure vanilla HTML and CSS created for a friend, tailored to put content and at the center."
+          }
+          projectImage={harini}
+        />
+        <Project
+          website={"https://gumroad-vicky-react2.netlify.app/"}
+          number={"06"}
+          images={[html, javascript, react, tailwind, git]}
+          isResponsive={"🔨"}
+          title={"Gumroad clone"}
+          description={
+            "A multi page web app inspired by Gumroad, built to explore product presentation and Strong CTAs."
+          }
+          projectImage={gumroad}
+        />
+        {/* <section className="w-[100%] md:w-[75%] mx-auto mb-[40px] md:mb-[50px]">
           <div
             className="bg-[#1e1d1c] h-auto rounded-xl mb-[20px] overflow-hidden px-[10px] md:p-[20px] text-[#888]
           transition duration-300 ease-in-out hover:shadow-[0_0_15px_3px_rgba(198,198,198,0.9)]
@@ -271,9 +339,7 @@ function About() {
                 />
                 <img src={git} alt="nothing" className="w-[20px] md:w-[30px]" />
               </div>
-              {/* <p className="hidden  bg-[#0e2d1d] text-[9px] md:text-[14px] md:flex items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#16a34a] font-mono font-bold hover:text-[#45b56e] hover:bg-[#1f382c]">
-                Responsive
-              </p> */}
+\
               <p className="hidden  bg-[#6c0707] text-[9px] md:text-[14px] md:flex items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#be1010] font-mono font-bold hover:text-[#be1010] hover:bg-[#7b2020]">
                 🔨
               </p>
@@ -330,9 +396,7 @@ function About() {
                   className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
                 />
               </div>
-              {/* <p className="hidden  bg-[#0e2d1d] text-[9px] md:text-[14px] md:flex  items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#16a34a] font-mono font-bold hover:text-[#45b56e] hover:bg-[#1f382c]">
-                Responsive
-              </p> */}
+      
               <p className="hidden  bg-[#6c0707] text-[9px] md:text-[14px] md:flex items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#be1010] font-mono font-bold hover:text-[#be1010] hover:bg-[#7b2020]">
                 🔨
               </p>
@@ -401,9 +465,7 @@ function About() {
 
                 <img src={git} alt="nothing" className="w-[20px] md:w-[30px]" />
               </div>
-              {/* <p className="hidden  bg-[#0e2d1d] text-[9px] md:text-[14px] md:flex  items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#16a34a] font-mono font-bold hover:text-[#45b56e] hover:bg-[#1f382c]">
-                Responsive
-              </p> */}
+      
               <p className="hidden  bg-[#6c0707] text-[9px] md:text-[14px] md:flex items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#be1010] font-mono font-bold hover:text-[#be1010] hover:bg-[#7b2020]">
                 🔨
               </p>
@@ -469,9 +531,7 @@ function About() {
               <p className="hidden  bg-[#0e2d1d] text-[9px] md:text-[14px] md:flex  items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#16a34a] font-mono font-bold hover:text-[#45b56e] hover:bg-[#1f382c]">
                 Responsive
               </p>
-              {/* <p className="hidden  bg-[#6c0707] text-[9px] md:text-[14px] md:flex items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#be1010] font-mono font-bold hover:text-[#be1010] hover:bg-[#7b2020]">
-                🔨
-              </p> */}
+       
             </section>
             <section className="flex items-center just mb-[10px] flex-col md:flex-row">
               <nav className=" min-w-[38%] md:pl-[20px]  md:pt-[15px]">
@@ -493,7 +553,7 @@ function About() {
               <img src={todo} alt="desktop" className="w-[100%]  md:w-[70%]" />
             </section>
           </div>
-        </section>
+        </section> */}
       </div>
       {/* leetcode stuffs */}
       <div className="mt-[100px]">

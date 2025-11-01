@@ -62,7 +62,7 @@ function About() {
   };
 
   const openPortfolio = () => {
-    window.open("https://ponv-dev.netlify.app/", "_blank");
+    window.open("https://ponvigneshworks.netlify.app/", "_blank");
   };
 
   const word =

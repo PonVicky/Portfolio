@@ -1,6 +1,7 @@
 import Cards from "./Cards";
 import react from "../images/techstackLogos/React.svg";
 import node from "../images/techstackLogos/Nodejs.svg";
+import next from "../images/techstackLogos/Nextjs.svg";
 import java from "../images/miscallaneous/Java.svg";
 import tailwind from "../images/techstackLogos/Tailwind.svg";
 import html from "../images/techstackLogos/HTML5.svg";
@@ -8,7 +9,6 @@ import git from "../images/miscallaneous/Git.svg";
 import javascript from "../images/techstackLogos/JavaScript.svg";
 import mongo from "../images/techstackLogos/mongo.svg";
 
-import github from "../images/socials/GitHub.svg";
 import dsa from "../images/githubdesktop.png";
 
 import desktop from "../images/swiggyDesktop.png";
@@ -19,6 +19,7 @@ import port from "../images/portfoliodesktop.png";
 import gumroad from "../images/gumroaddesktop.png";
 import harini from "../images/harini.png";
 import Project from "./Project";
+import Spotted from "../images/SpottedAI.png";
 function About() {
   const cardDetails = [
     {
@@ -38,6 +39,79 @@ function About() {
       text: "Backend Explorer",
       text2: "Node JS",
       style: "text-[#83cd29]",
+    },
+  ];
+
+  const projects = [
+    {
+      number: "01",
+      title: "Spotted AI – Human-Guided AI Recruiting Platform",
+      website: "https://www.getspotted.live/",
+      images: [html, javascript, next, react, tailwind, git],
+      description:
+        "An ongoing freelance project where I build and refine responsive front-end experiences for a real-world AI-powered recruiting platform. My work focuses on clean UI architecture, usability improvements, and implementing product features aligned with live business requirements",
+      isResponsive: "Responsive",
+      projectImage: Spotted,
+    },
+    {
+      number: "02",
+      title: "Swiggy",
+      website: "https://swiggy-vickys-react5.netlify.app/",
+      images: [html, javascript, react, tailwind, git],
+      description:
+        "A responsive front-end recreation of a food ordering interface, designed with a focus on clean layouts and smooth user flow.",
+      isResponsive: "Responsive",
+      projectImage: desktop,
+    },
+    {
+      number: "03",
+      title: "To-Do Web Application (Full Stack)",
+      website: "https://fullstacktodo1.netlify.app/",
+      images: [html, javascript, react, node, mongo, tailwind, git],
+      description:
+        "A secure and responsive MERN stack application that lets users sign up, log in, and manage their daily tasks. Users can add, complete, or delete tasks, with all data stored persistently for future access.",
+      isResponsive: "Responsive",
+      projectImage: todo,
+    },
+    {
+      number: "04",
+      title: "Portfolio (Recursion Unlocked🔁)",
+      website: "https://ponvigneshworks.netlify.app/",
+      images: [html, javascript, react, tailwind, git],
+      description:
+        "Yes... my portfolio lives inside my portfolio. Built fully responsive with React and Tailwind, it's a clean showcase of my work, my skills.",
+      isResponsive: "Responsive",
+      projectImage: port,
+    },
+    {
+      number: "05",
+      title: "Amazon UI",
+      website: "https://vickyamazon.netlify.app/",
+      images: [html, javascript, react, tailwind, git],
+      description:
+        "An e-commerce front-end look alike Amazon, showcasing product listing, header interactions, and catalog-style layouts.",
+      isResponsive: "🔨",
+      projectImage: amazon,
+    },
+    {
+      number: "06",
+      title: "Client Portfolio",
+      website: "https://benevolent-pavlova-0db68b.netlify.app/",
+      images: [html, css],
+      description:
+        "My first design just using pure vanilla HTML and CSS created for a friend, tailored to put content and at the center.",
+      isResponsive: "🔨",
+      projectImage: harini,
+    },
+    {
+      number: "07",
+      title: "Gumroad clone",
+      website: "https://gumroad-vicky-react2.netlify.app/",
+      images: [html, javascript, react, tailwind, git],
+      description:
+        "A multi page web app inspired by Gumroad, built to explore product presentation and strong CTAs.",
+      isResponsive: "🔨",
+      projectImage: gumroad,
     },
   ];
 
@@ -95,7 +169,7 @@ function About() {
           <Cards key={index} props={cardDetail} />
         ))}
       </div>
-      <div className=" mt-[40px]">
+      {/* <div className=" mt-[40px]">
         <p className=" text-white text-[50px] md:text-[80px] font-[700] mb-[50px] md:mb-[90px] leading-[1.1]">
           Side Projects<b>.</b>
         </p>
@@ -165,337 +239,7 @@ function About() {
           }
           projectImage={gumroad}
         />
-        {/* <section className="w-[100%] md:w-[75%] mx-auto mb-[40px] md:mb-[50px]">
-          <div
-            className="bg-[#1e1d1c] h-auto rounded-xl mb-[20px] overflow-hidden px-[10px] md:p-[20px] text-[#888]
-          transition duration-300 ease-in-out hover:shadow-[0_0_15px_3px_rgba(198,198,198,0.9)]
-          hover:scale-101
-          hover:cursor-pointer
-          "
-            onClick={openWebsite}
-          >
-            <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[15px] md:p-[15px]">
-              <div className="flex items-center ">
-                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[20px] md:mr-[50px]">
-                  01{" "}
-                </p>
-                <img
-                  src={html}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]
-                 "
-                />
-                <img
-                  src={javascript}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
-                />
-                <img
-                  src={react}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
-                />
-                <img
-                  src={tailwind}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
-                />
-                <img src={git} alt="nothing" className="w-[20px] md:w-[30px]" />
-              </div>
-              <p className="hidden  bg-[#0e2d1d] text-[9px] md:text-[14px] md:flex items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#16a34a] font-mono font-bold hover:text-[#45b56e] hover:bg-[#1f382c]">
-                Responsive
-              </p>
-            </section>
-            <section
-              className="flex items-center just mb-[10px]
-              flex-col md:flex-row
-            "
-            >
-              <nav className=" min-w-[38%] md:pl-[20px]  md:pt-[15px]">
-                <section
-                  className="textra flex justify-center
-               flex-col  mt-[20px]  md:mt-[40%]"
-                >
-                  <p className="text-[20px] md:text-[34px] text-white font-[700] ">
-                    Swiggy
-                  </p>
-
-                  <p className="text-[13px] md:text-[18px]  clamp-3 md:line-clamp-none mt-[2px] md:mt-[5px]">
-                    A responsive front-end recreation of a food ordering
-                    interface, designed with a focus on clean layouts and smooth
-                    user flow.
-                  </p>
-                </section>
-              </nav>
-              <img
-                src={desktop}
-                alt="desktop"
-                className="w-[100%]  md:w-[70%]"
-              />
-            </section>
-          </div>
-        </section>
-
-        <section className="w-[100%] md:w-[75%] mx-auto mb-[40px] md:mb-[50px]">
-          <div
-            className="bg-[#1e1d1c] h-auto rounded-xl mb-[20px] overflow-hidden px-[10px] md:p-[20px] text-[#888]
-          transition duration-300 ease-in-out hover:shadow-[0_0_15px_3px_rgba(198,198,198,0.9)]
-          hover:scale-101
-          hover:cursor-pointer
-          "
-            onClick={openPortfolio}
-          >
-            <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[15px] md:p-[15px]">
-              <div className="flex items-center ">
-                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[20px] md:mr-[50px]">
-                  02{" "}
-                </p>
-                <img
-                  src={html}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]
-                 "
-                />
-                <img
-                  src={javascript}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
-                />
-                <img
-                  src={react}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
-                />
-                <img
-                  src={tailwind}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
-                />
-                <img src={git} alt="nothing" className="w-[20px] md:w-[30px]" />
-              </div>
-              <p className="hidden  bg-[#0e2d1d] text-[9px] md:text-[14px] md:flex items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#16a34a] font-mono font-bold hover:text-[#45b56e] hover:bg-[#1f382c]">
-                Responsive
-              </p>
-            </section>
-            <section className="flex items-center just mb-[10px] flex-col md:flex-row">
-              <nav className=" min-w-[38%] md:pl-[20px]  md:pt-[15px]">
-                <section
-                  className="textra flex justify-center
-               flex-col  mt-[20px]  md:mt-[40%]"
-                >
-                  <p className="text-[20px] md:text-[34px] text-white font-[700] ">
-                    Portfolio{" "}
-                    <b className="font-[700]  text-[18px] md:text-[30px]">
-                      (Recursion Unlocked🔁)
-                    </b>
-                  </p>
-
-                  <p className="text-[13px] md:text-[18px]  clamp-3 md:line-clamp-none mt-[2px] md:mt-[5px]">
-                    Yes... my portfolio lives inside my portfolio. Built fully
-                    responsive with React and Tailwind, it's a clean showcase of
-                    my work, my skills.
-                  </p>
-                </section>
-              </nav>
-              <img src={port} alt="desktop" className="w-[100%]  md:w-[70%]" />
-            </section>
-          </div>
-        </section>
-
-        <section className="w-[100%] md:w-[75%] mx-auto mb-[40px] md:mb-[50px]">
-          <div
-            className="bg-[#1e1d1c] h-auto rounded-xl mb-[20px] overflow-hidden px-[10px] md:p-[20px] text-[#888]
-          transition duration-300 ease-in-out hover:shadow-[0_0_15px_3px_rgba(198,198,198,0.9)]
-          hover:scale-101
-          hover:cursor-pointer
-          "
-            onClick={openAmazon}
-          >
-            <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[20px] md:p-[15px]">
-              <div className="flex items-center ">
-                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[20px] md:mr-[50px]">
-                  03{" "}
-                </p>
-                <img
-                  src={html}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]
-                 "
-                />
-                <img
-                  src={javascript}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
-                />
-                <img
-                  src={react}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
-                />
-                <img
-                  src={tailwind}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
-                />
-                <img src={git} alt="nothing" className="w-[20px] md:w-[30px]" />
-              </div>
-\
-              <p className="hidden  bg-[#6c0707] text-[9px] md:text-[14px] md:flex items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#be1010] font-mono font-bold hover:text-[#be1010] hover:bg-[#7b2020]">
-                🔨
-              </p>
-            </section>
-            <section className="flex items-center just mb-[10px] flex-col md:flex-row">
-              <nav className=" min-w-[38%] md:pl-[20px]  md:pt-[15px]">
-                <section
-                  className="textra flex justify-center
-               flex-col  mt-[20px]  md:mt-[40%]"
-                >
-                  <p className="text-[20px] md:text-[34px] text-white font-[700] ">
-                    Amazon UI
-                  </p>
-
-                  <p className="text-[13px] md:text-[18px]  clamp-3 md:line-clamp-none mt-[2px] md:mt-[5px]">
-                    An e-commerce front-end look alike Amazon, showcasing
-                    product listing, header interactions, and catalog-style
-                    layouts.
-                  </p>
-                </section>
-              </nav>
-              <img
-                src={amazon}
-                alt="desktop"
-                className="w-[100%]  md:w-[70%]"
-              />
-            </section>
-          </div>
-        </section>
-
-        <section className="w-[100%] md:w-[75%] mx-auto mb-[40px] md:mb-[50px]">
-          <div
-            className="bg-[#1e1d1c] h-auto rounded-xl mb-[20px] overflow-hidden px-[10px] md:p-[20px] text-[#888]
-          transition duration-300 ease-in-out hover:shadow-[0_0_15px_3px_rgba(198,198,198,0.9)]
-          hover:scale-101
-          hover:cursor-pointer
-          "
-            onClick={openHarini}
-          >
-            <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[15px] md:p-[15px]">
-              <div className="flex items-center ">
-                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[20px] md:mr-[50px]">
-                  04{" "}
-                </p>
-                <img
-                  src={html}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]
-                 "
-                />
-                <img
-                  src={css}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
-                />
-              </div>
-      
-              <p className="hidden  bg-[#6c0707] text-[9px] md:text-[14px] md:flex items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#be1010] font-mono font-bold hover:text-[#be1010] hover:bg-[#7b2020]">
-                🔨
-              </p>
-            </section>
-            <section className="flex items-center just mb-[10px] flex-col md:flex-row">
-              <nav className=" min-w-[38%] md:pl-[20px]  md:pt-[15px]">
-                <section
-                  className="textra flex justify-center
-               flex-col  mt-[20px]  md:mt-[40%]"
-                >
-                  <p className="text-[18px] md:text-[34px] text-white font-[700] ">
-                    Client Portfolio
-                  </p>
-
-                  <p className="text-[13px] md:text-[18px]  clamp-3 md:line-clamp-none mt-[2px] md:mt-[5px]">
-                    My first design just using pure vanilla HTML and CSS created
-                    for a friend, tailored to put content and readability at the
-                    center.
-                  </p>
-                </section>
-              </nav>
-              <img
-                src={harini}
-                alt="desktop"
-                className="w-[100%]  md:w-[70%]"
-              />
-            </section>
-          </div>
-        </section>
-
-        <section className="w-[100%] md:w-[75%] mx-auto mb-[40px] md:mb-[50px]">
-          <div
-            className="bg-[#1e1d1c] h-auto rounded-xl mb-[20px] overflow-hidden px-[10px] md:p-[20px] text-[#888]
-          transition duration-300 ease-in-out hover:shadow-[0_0_15px_3px_rgba(198,198,198,0.9)]
-          hover:scale-101
-          hover:cursor-pointer
-          "
-            onClick={openGumroad}
-          >
-            <section className="flex justify-between text-[16px] md:text-[22px] p-[5px] pt-[15px] md:p-[15px]">
-              <div className="flex items-center ">
-                <p className=" font-[600] pr-[10px] md:pr-[20px]  border-r border-[#888] mr-[20px] md:mr-[50px]">
-                  05{" "}
-                </p>
-                <img
-                  src={html}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]
-                 "
-                />
-                <img
-                  src={javascript}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
-                />
-                <img
-                  src={react}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
-                />
-                <img
-                  src={tailwind}
-                  alt="nothing"
-                  className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
-                />
-
-                <img src={git} alt="nothing" className="w-[20px] md:w-[30px]" />
-              </div>
-      
-              <p className="hidden  bg-[#6c0707] text-[9px] md:text-[14px] md:flex items-center px-[10px] md:px-[20px] md:py-[2px] rounded-2xl text-[#be1010] font-mono font-bold hover:text-[#be1010] hover:bg-[#7b2020]">
-                🔨
-              </p>
-            </section>
-            <section className="flex items-center just mb-[10px] flex-col md:flex-row">
-              <nav className=" min-w-[38%] md:pl-[20px]  md:pt-[15px]">
-                <section
-                  className="textra flex justify-center
-               flex-col  mt-[20px]  md:mt-[40%]"
-                >
-                  <p className="text-[18px] md:text-[34px] text-white font-[700] ">
-                    Gumroad clone
-                  </p>
-
-                  <p className="text-[13px] md:text-[18px]  clamp-3 md:line-clamp-none mt-[2px] md:mt-[5px]">
-                    A multi page web app inspired by Gumroad, built to explore
-                    product presentation and Strong CTAs.
-                  </p>
-                </section>
-              </nav>
-              <img
-                src={gumroad}
-                alt="desktop"
-                className="w-[100%]  md:w-[70%]"
-              />
-            </section>
-          </div>
-        </section>
-
-        <section className="w-[100%] md:w-[75%] mx-auto mb-[20px] md:mb-[50px]">
+    
           <div
             className="bg-[#1e1d1c] h-auto rounded-xl mb-[20px] overflow-hidden px-[10px] md:p-[20px] text-[#888]
           transition duration-300 ease-in-out hover:shadow-[0_0_15px_3px_rgba(198,198,198,0.9)]
@@ -553,7 +297,14 @@ function About() {
               <img src={todo} alt="desktop" className="w-[100%]  md:w-[70%]" />
             </section>
           </div>
-        </section> */}
+      </div> */}
+      <div className=" mt-[40px]">
+        <p className=" text-white text-[50px] md:text-[80px] font-[700] mb-[50px] md:mb-[90px] leading-[1.1]">
+          Side Projects<b>.</b>
+        </p>
+        {projects.map((project) => (
+          <Project key={project.number} {...project} />
+        ))}
       </div>
       {/* leetcode stuffs */}
       <div className="mt-[100px]">

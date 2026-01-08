@@ -28,7 +28,7 @@ function Project(props) {
                       key={index}
                       src={imgSrc}
                       alt="tech-logo"
-                      className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px]"
+                      className="w-[20px] md:w-[30px] mr-[18px] md:mr-[35px] transition-transform duration-200 ease-in-out hover:-translate-y-1"
                     />
                   ))}
                 </div>
